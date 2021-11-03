@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <span @click="langChange('zh')">點我中文/</span><span
+      <span @click="langChange('zh')"></span><span
         @click="langChange('en')"
-        >點我英文</span
+        ></span
       >
     </div>
-    <div>内容：{{$t('publicHearder.tab1')}}</div>
+    <!-- <div>内容：{{$t('publicHearder.tab1')}}</div> -->
     <router-view />
   </div>
 </template>
