@@ -1,15 +1,17 @@
 <template>
   <div class="home">
-     <banner></banner>
+     <Banner></Banner>
+     <VideoH></VideoH>
   </div>
 </template>
 
 <script>
 import Banner from "../components/banner.vue";
+import VideoH from "../components/video.vue";
 export default {
-  name: 'Home',
   components: {
-   Banner
+   Banner,
+   VideoH
   },
  
 }                        
