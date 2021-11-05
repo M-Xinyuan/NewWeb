@@ -1,7 +1,7 @@
 <template>
  <div class="banner">
 
-    <el-carousel indicator-position="none">
+    <el-carousel indicator-position="none" id="bannerscu">
       <el-carousel-item v-for="item in 4" :key="item"> </el-carousel-item>
     </el-carousel>
     <div class="botbut">
@@ -16,7 +16,7 @@
 .el-carousel__container {
   height: 100% !important;
 }
-.el-carousel__item {
+#bannerscu .el-carousel__item {
   width: 100%;
   min-height: 100%;
   background-image: url(../assets/img/banner1.png);
